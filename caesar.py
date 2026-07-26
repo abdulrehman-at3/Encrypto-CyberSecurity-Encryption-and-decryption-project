@@ -18,7 +18,6 @@ def encrypt(text: str, shift: int) -> str:
 def decrypt(text: str, shift: int) -> str:
     return encrypt(text, -shift)
 
-
 class CaesarCipher:
     encrypt = staticmethod(encrypt)
     decrypt = staticmethod(decrypt)
